@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Cell.h"
+#include "../Cell.h"
 
 class Stone : public Object{
 

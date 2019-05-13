@@ -1,9 +1,11 @@
+#pragma once
+
 #include "../include/object/Predator.h"
 
-Predator::Predator(Cell * cell) : Object(cell, PREDATOR) {
+Predator::Predator(Cell * cell) : Live(cell, PREDATOR) {
 
-    liveTime = rand() % 100;
-    reproductionTime = rand() % 10;
+    liveTime = rand() % 30;
+    reproductionTime = rand() % 100;
     steps.push_back(cell->cord);
     reproductionTimer = reproductionTime;
 

@@ -28,21 +28,11 @@ class Object {
 public:
 
     Cell * cell;
-    int liveTime = -1;
-    vector<COORDINATES> steps;
     ObjType objType;
-    int reproductionTime;
-    int reproductionTimer;
 
     explicit Object (Cell * = nullptr, ObjType = ObjTypeEnd);
 
     void setCell(Cell *);
-
-    void makeStep();
-
-    virtual bool checkCell (Cell *);
-
-    virtual void reproduction();
 
     virtual Object * createObject(Cell *);
 

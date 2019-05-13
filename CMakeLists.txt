@@ -24,6 +24,7 @@ set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/Ocean.cpp
               ${PROJECT_SOURCE_DIR}/src/object/Predator.cpp
               ${PROJECT_SOURCE_DIR}/src/object/Coral.cpp
               ${PROJECT_SOURCE_DIR}/src/Cell.cpp
+              ${PROJECT_SOURCE_DIR}/src/Live.cpp
               ${PROJECT_SOURCE_DIR}/src/Object.cpp)
 
 set(CMAKE_CXX_STANDARD 11)

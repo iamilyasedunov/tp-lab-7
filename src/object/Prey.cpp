@@ -1,9 +1,8 @@
-
-#include <object/Prey.h>
+#pragma once
 
 #include "../include/object/Prey.h"
 
-Prey::Prey(Cell * cell) : Object(cell, PREY) {
+Prey::Prey(Cell * cell) : Live(cell, PREY) {
 
     liveTime = rand() % 100;
     reproductionTime = rand() % 10;

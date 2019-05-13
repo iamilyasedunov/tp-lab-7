@@ -1,4 +1,6 @@
-#include "Cell.h"
+#pragma once
+
+#include "../Cell.h"
 
 class Coral : public Object{
 

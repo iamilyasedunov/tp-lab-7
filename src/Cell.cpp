@@ -1,3 +1,5 @@
+#pragma once
+
 #include "../include/Cell.h"
 
 Object * Cell::getObject() {

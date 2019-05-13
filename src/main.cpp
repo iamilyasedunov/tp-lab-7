@@ -1,7 +1,10 @@
-#include "Ocean.cpp"
+#pragma once
+
+#include "../include/Ocean.h"
 
 int main(){
 
+    freopen("../out/out.txt", "w", stdout);
     auto * ocean = new Ocean(100);
 
     ocean->print(cout);

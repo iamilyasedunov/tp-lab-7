@@ -1,11 +1,9 @@
 #pragma once
 
-#include <set>
-#include "../include/object/Prey.h"
-#include "../include/object/Predator.h"
-#include "../include/object/Stone.h"
-#include "../include/object/Coral.h"
-
+#include "object/Predator.h"
+#include "object/Prey.h"
+#include "object/Coral.h"
+#include "object/Stone.h"
 #include "Cell.h"
 #include "common.h"
 

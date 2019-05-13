@@ -1,9 +1,9 @@
 #pragma once
 
-#include <Object.h>
-#include "Ocean.h"
+#include "../Live.h"
+#include "../Ocean.h"
 
-class Prey : public Object {
+class Prey : public Live {
 
 public:
 
